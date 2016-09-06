@@ -1,0 +1,36 @@
+body {
+	text-align: center;
+}
+
+.container {
+	background-image: url("../img/stars.jpg");
+}
+
+.form-group button {
+	background-color: black;
+	border-color: #00ff00;
+}
+.form-group button:hover {
+	background-color: #00ff00;
+}
+.form-group button:focus {
+	background-color: black;
+}
+
+.form-group h1 {
+	color: #fff;
+}
+#yourSign {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#yourHoroscope {
+	font-size: 25px;
+	color: #fff;
+}
+
+#icon {
+	animation-name: fadeIn;
+	animation-duration: 3s;
+}
